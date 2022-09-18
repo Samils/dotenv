@@ -44,6 +44,6 @@
     "php_modules/array-full-merge": "dev-main"
 	},
   "suggest": {
-    "php_modules/core": "",
+    "php_modules/core": ""
   }
 }
