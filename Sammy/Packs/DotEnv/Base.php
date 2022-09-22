@@ -61,7 +61,7 @@ namespace Sammy\Packs\DotEnv {
     /**
      * @method void __invoke
      */
-    public final function __invoke () {
+    public function __invoke () {
       $dotEnvFileList = Config::FileList ();
 
       $backTrace = debug_backtrace ();

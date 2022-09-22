@@ -37,7 +37,7 @@ namespace Sammy\Packs\DotEnv\Parser {
      * @param  array  $dotEnvDatas
      * @return array
      */
-    public final function parse ($dotEnvDatas = []) {
+    public function parse ($dotEnvDatas = []) {
       if (!(is_array($dotEnvDatas) && $dotEnvDatas))
         return;
 
